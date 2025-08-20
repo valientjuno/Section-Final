@@ -5,9 +5,29 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+div.homeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+}
 
-#Welcome {
-  align-items: center;
-  text-decoration: wavy;
-  text-align: center;
+div.top {
+  display: block;
+  border: groove;
+}
+
+div.page {
+  display: block;
+  border: groove;
+  border-color: dodgerblue;
+
+  #text {
+    font-weight: bolder;
+    color: black;
+  }
 }
