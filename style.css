@@ -1,3 +1,13 @@
 body {
   background-color: honeydew;
+  background-image: url(https://www.msccruisesusa.com/-/media/global-contents/destinations/ports/alaska/juneau/cruise-to-juneau.jpg?bc=transparent&as=1&mh=1395&mw=2460&hash=D5F43AC7640468D6AF548C03C4D0A82E);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#Welcome {
+  align-items: center;
+  text-decoration: wavy;
+  text-align: center;
 }
